@@ -1,6 +1,7 @@
 // Write your Color component here
 import { useState } from "react";
 import "./index.css";
+import { Fragment } from "react";
 
 const Color = ({ color, setSelectedColor, selectedColor }) => {
   return (
